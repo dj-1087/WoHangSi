@@ -16,7 +16,7 @@ public class TopCategory extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.category_top);
 
-        btnBuget = (Button) findViewById(R.id.btnBuget);
+//        btnBuget = (Button) findViewById(R.id.btnBuget);
         vFlipper = (ViewFlipper) findViewById(R.id.vFlipper);
 
         btnBuget.setOnClickListener(new View.OnClickListener() {
